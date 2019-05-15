@@ -49,6 +49,7 @@ public class PessoaApp {
 				if ((sexo.equals("M")) || (sexo.equals("F"))) {
 					switch (sexo) {
 					case "M":
+					{
 						aux = new Pessoa(rg, nome, sexo, altura);
 						if (cont <= 10) {
 							listaPessoa.insertFirst(aux);
@@ -60,8 +61,10 @@ public class PessoaApp {
 						} else
 							System.out.println("Pilhas 1 cheia!");
 						break;
+					}
 
 					case "F":
+					{
 						aux = new Pessoa(rg, nome, sexo, altura);
 						if (cont <= 10) {
 							listaPessoa.insertFirst(aux);
@@ -73,11 +76,14 @@ public class PessoaApp {
 						} else
 							System.out.println("Pilhas 1 cheia!");						
 						break;
+					}
 
-					default:
+					default:{
 						break;
 					}
+					}
 				}
+				break;
 			}
 			case 2:// Remoção
 			{
