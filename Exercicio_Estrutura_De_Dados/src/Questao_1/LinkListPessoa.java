@@ -44,7 +44,7 @@ public class LinkListPessoa {
 	}
 
 	// -------------------------------------------------------------
-	public LinkPessoa find(int key) {
+	public LinkPessoa find(long key) {
 		LinkPessoa current = first;
 		while (current.pessoa.getRg() != key) {
 			if (current.nextPessoa == null)

@@ -4,10 +4,10 @@ public class Pessoa {
 	
 	private long rg;
 	private String nome;
-	private char sexo;
+	private String sexo;
 	private double altura;
 	
-	public Pessoa(long rg, String nome, char sexo, double altura) {
+	public Pessoa(long rg, String nome, String sexo, double altura) {
 		this.rg = rg;
 		this.nome = nome;
 		this.sexo = sexo;
@@ -32,11 +32,11 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
-	public char getSexo() {
+	public String getSexo() {
 		return sexo;
 	}
 
-	public void setSexo(char sexo) {
+	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
 
