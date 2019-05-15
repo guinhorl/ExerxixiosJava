@@ -1,7 +1,5 @@
 package Questao_1;
 
-import java.text.SimpleDateFormat;
-
 public class PessoaApp {
 
 	public static void main(String[] args) {
